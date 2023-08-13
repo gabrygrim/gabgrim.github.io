@@ -1,0 +1,80 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero section */
+.hero-section {
+    background-image: url('hero-background.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+/* About section */
+.about-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact section */
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Social media section */
+.social-media-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media-section ul {
+    list-style: none;
+}
+
+.social-media-section a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px 0;
+}
